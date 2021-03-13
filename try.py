@@ -1,7 +1,7 @@
 from matplotlib import pyplot as plt
 import math
 
-# A numerical proof of: The density of basic Pythagorean numbers converge to 1/2pi. 
+# A numerical proof of: The density of basic Pythagorean triples converges to 1/2pi. 
 
 N = 10000
 series = []

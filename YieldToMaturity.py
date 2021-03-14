@@ -11,7 +11,7 @@ P = 900 # current price
 n = 10 # number of payments
 
 # 100 linearly spaced numbers
-x = np.linspace(0,math.ceil(FV/C),num=500) # should be adjusted flexibly according to different data
+x = np.linspace(0,math.ceil(FV/C),num=10000) # should be adjusted flexibly according to different data
 
 # We are looking for Y, i.e. yield to maturity
 # Which can be expressed as two functions between y and x
@@ -41,4 +41,5 @@ plt.axvline(x[ind_cross], color='0.5', ls=':', label='Y='+'{:.2f}'.format(100/x[
 # show the plot
 plt.grid()
 plt.legend()
+plt.suptitle('Solving for Yield to Maturity')
 plt.show()

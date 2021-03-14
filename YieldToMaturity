@@ -1,0 +1,16 @@
+The problem can be described as: 
+
+Calculate the yield to maturity rate Y of a bond. 
+Given: 
+  The current price P > 0,
+  Coupon payments C > 0 and C < P,
+  The face value of the bond FV > 0, FV > C and FV > P,
+  The number of payments n, which is a non-negative integer. 
+
+After some simplifications, the problem can be reduced to the combination of the following two equations: 
+(1) b = (1 + 1/a)^(-n)
+(2) (FV/C - a) * (1 - b) = (FV-P) / C
+Where a = 1/Y and b = 1 / ((1+Y)^n). 
+
+On the a-b axis, the problem can be viewed as a root-finding problem for a monotonic and convex function: 
+

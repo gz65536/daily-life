@@ -23,7 +23,7 @@ y = (1 + 1/x) ** (-n)
 z = (FV-P) / (C*x - FV) + 1
 
 fig = plt.figure()
-ax = fig.add_subplot(1, 1, 1)
+# ax = fig.add_subplot(1, 1, 1)
 
 # plot function 1
 plt.plot(x,y, 'r')

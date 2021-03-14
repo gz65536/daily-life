@@ -25,9 +25,10 @@ z = (FV-P) / (C*x - FV) + 1
 fig = plt.figure()
 # ax = fig.add_subplot(1, 1, 1)
 
-# plot function 1
+# plot functions
 plt.plot(x,y, 'r')
 plt.plot(x,z, 'g')
 
 # show the plot
+plt.grid()
 plt.show()

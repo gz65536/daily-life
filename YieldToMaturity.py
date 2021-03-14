@@ -1,8 +1,10 @@
 from matplotlib import pyplot as plt
 import numpy as np
 
+# Draws two functions that show the problem in the same plot
+
 # 100 linearly spaced numbers
-x = np.linspace(0,20,100)
+x = np.linspace(0,20,100) # should be adjusted flexibly according to different data
 
 # some constants to use
 FV = 1000 # face value

@@ -1,5 +1,5 @@
 from matplotlib import pyplot as plt
-import numpy as np
+# import numpy as np
 
 # Draws two functions that show the problem in the same plot
 
